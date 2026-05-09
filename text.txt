@@ -1,0 +1,57 @@
+# 🦀 The Way: High-Assurance Development Track
+**Focus:** Formal Verification & Agentic Logic
+**Primary Tool:** [Verus-Lang for Rust](https://github.com)
+**Connectivity:** [VerusIDX MCP](https://github.com)
+
+---
+
+## 🛡️ The Goal
+To build a "Sovereign Inner Loop" for AI agents where every state transition is mathematically proven to be secure before it is executed on the [Verus Protocol](https://verus.io).
+
+---
+
+## 🆕 Good First Issue: [RUST-01] Verified VerusID Status Check
+
+**Difficulty:** Beginner (Formal Verification) / Intermediate (Rust)
+**Status:** Open 🟢
+
+### The Challenge
+Create a formally verified Rust function that checks if a **VerusID** is currently "Locked" or "Unlocked" by querying the protocol via VerusIDX.
+
+### Technical Requirements:
+1. **The Spec:** Define a specification function `is_locked_spec` that represents the protocol-level "Vault" state.
+2. **The Logic:** Implement a Rust function that parses the `getidentity` JSON response.
+3. **The Proof:** Provide an SMT-based proof that the function correctly identifies a `flags: 2` (Locked) state and prevents any "Spend" actions while locked.
+
+### Getting Started:
+1. Install [Verus-Lang](https://github.com).
+2. Use the **VerusIDX `identity` server** to fetch a test ID.
+3. Submit your PR with the `.rs` file containing both code and proofs.
+
+---
+
+## 🛠️ Developer Resources
+
+### 1. The Verification Stack
+- **Verus-Lang Guide:** [verus-lang.github.io/verus/guide](https://github.io)
+- **Protocol JSON-RPC:** [docs.verus.io](https://verus.io)
+
+### 2. VDXF Mapping
+All developers should use the following namespace for AI-specific data:
+`the-way.vrsc::identity.ai.<attribute>`
+
+### 3. The Heartbeat Standard
+Every agentic loop must implement a **vtimestamp** check.
+- **Goal:** Prove the local binary matches the on-chain `model_hash`.
+- **Reference:** [vtimestamp.com](https://vtimestamp.com)
+
+---
+
+## 🤝 Support the Mission
+This is a volunteer-led, high-assurance digital commons. If this project helps you build better systems, support the core protocol development at:
+
+**Official Donation Address:** **VerusCoinFoundation@**
+
+---
+**"The Way is live. Let's prove the future."**
+[Verus.io](https://verus.io)
