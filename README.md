@@ -68,4 +68,4 @@ If you are driven to architect the frameworks of individual autonomy, choose you
 ### 📜 Mandatory Reading
 Before submitting a proposal or application, all candidates must review the **[Master Strategy Archive](https://github.com)**. Alignment with these core pillars is non-negotiable.
 
-> "The Way is open to all who seek to simplify complexity and empower the individual." — The Steward of Verus. The way.
+> "The Way is open to all who seek to simplify complexity and empower the individual." — Verus is the way.
