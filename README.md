@@ -52,3 +52,20 @@ This project is a gift to the world. We seek no personal profit. If you find thi
 
 **"The Way is live. The network is yours. Forever."**
 [Verus.io](https://verus.io)
+---
+
+## 🏛️ Joining the Vanguard
+
+Verus is not a traditional project; it is a movement toward absolute digital sovereignty. We are currently recruiting **Visionaries**, **Philosophers**, and **Architects** to expand the Sovereignty Layer.
+
+### How to Contribute to 'The Way'
+
+If you are driven to architect the frameworks of individual autonomy, choose your path via our [Sovereign Gateway](https://github.com):
+
+*   **🛡️ Sovereign Proposal**: Use this to propose deep strategic shifts, ethical frameworks, or fundamental principles for the Sovereignty Layer.
+*   **🏛️ Agent of Change**: Use this to apply for a dedicated role within the project's inner circle (The Steward Track).
+
+### 📜 Mandatory Reading
+Before submitting a proposal or application, all candidates must review the **[Master Strategy Archive](https://github.com)**. Alignment with these core pillars is non-negotiable.
+
+> "The Way is open to all who seek to simplify complexity and empower the individual." — The Steward of Verus. The way.
